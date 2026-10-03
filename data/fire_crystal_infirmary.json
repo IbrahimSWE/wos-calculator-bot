@@ -1,0 +1,791 @@
+{
+  "system": "fire_crystal_infirmary",
+  "name_ar": "المستوصف للكريستال الناري",
+  "source": "https://www.whiteoutsurvival.wiki/buildings/fire-crystal-infirmary/",
+  "resources_order": [
+    "wood",
+    "coal",
+    "iron",
+    "food",
+    "fire_crystal",
+    "refined_fire_crystal"
+  ],
+  "note": "المتطلب الوحيد هو مطابقة مستوى حجرة الاحتراق للكريستال الناري. تنبيه: المصدر الرسمي يكرر نفس رقم القوة لمستويي FC4 وFC4-1 (405,075) — خطأ محتمل بالمصدر نفسه، أبقيناه كما ورد.",
+  "levels": [
+    {
+      "level": "30-1",
+      "requirements": [
+        "حجرة الاحتراق FC-1"
+      ],
+      "cost": {
+        "food": 16000000,
+        "wood": 16000000,
+        "coal": 3300000,
+        "iron": 840000,
+        "fire_crystal": 26
+      },
+      "time_seconds": 84660,
+      "power": 237135
+    },
+    {
+      "level": "30-2",
+      "requirements": [
+        "حجرة الاحتراق FC-1"
+      ],
+      "cost": {
+        "food": 16000000,
+        "wood": 16000000,
+        "coal": 3300000,
+        "iron": 840000,
+        "fire_crystal": 26
+      },
+      "time_seconds": 84660,
+      "power": 245745
+    },
+    {
+      "level": "30-3",
+      "requirements": [
+        "حجرة الاحتراق FC-1"
+      ],
+      "cost": {
+        "food": 16000000,
+        "wood": 16000000,
+        "coal": 3300000,
+        "iron": 840000,
+        "fire_crystal": 26
+      },
+      "time_seconds": 84660,
+      "power": 254355
+    },
+    {
+      "level": "30-4",
+      "requirements": [
+        "حجرة الاحتراق FC-1"
+      ],
+      "cost": {
+        "food": 16000000,
+        "wood": 16000000,
+        "coal": 3300000,
+        "iron": 840000,
+        "fire_crystal": 26
+      },
+      "time_seconds": 84660,
+      "power": 262965
+    },
+    {
+      "level": "FC1",
+      "requirements": [
+        "حجرة الاحتراق FC-1"
+      ],
+      "cost": {
+        "food": 16000000,
+        "wood": 16000000,
+        "coal": 3300000,
+        "iron": 840000,
+        "fire_crystal": 26
+      },
+      "time_seconds": 84660,
+      "power": 271575
+    },
+    {
+      "level": "FC1-1",
+      "requirements": [
+        "حجرة الاحتراق FC-2"
+      ],
+      "cost": {
+        "food": 18000000,
+        "wood": 18000000,
+        "coal": 3600000,
+        "iron": 900000,
+        "fire_crystal": 31
+      },
+      "time_seconds": 108840,
+      "power": 280185
+    },
+    {
+      "level": "FC1-2",
+      "requirements": [
+        "حجرة الاحتراق FC-2"
+      ],
+      "cost": {
+        "food": 18000000,
+        "wood": 18000000,
+        "coal": 3600000,
+        "iron": 900000,
+        "fire_crystal": 31
+      },
+      "time_seconds": 108840,
+      "power": 288795
+    },
+    {
+      "level": "FC1-3",
+      "requirements": [
+        "حجرة الاحتراق FC-2"
+      ],
+      "cost": {
+        "food": 18000000,
+        "wood": 18000000,
+        "coal": 3600000,
+        "iron": 900000,
+        "fire_crystal": 31
+      },
+      "time_seconds": 108840,
+      "power": 297405
+    },
+    {
+      "level": "FC1-4",
+      "requirements": [
+        "حجرة الاحتراق FC-2"
+      ],
+      "cost": {
+        "food": 18000000,
+        "wood": 18000000,
+        "coal": 3600000,
+        "iron": 900000,
+        "fire_crystal": 31
+      },
+      "time_seconds": 108840,
+      "power": 306015
+    },
+    {
+      "level": "FC2",
+      "requirements": [
+        "حجرة الاحتراق FC-2"
+      ],
+      "cost": {
+        "food": 18000000,
+        "wood": 18000000,
+        "coal": 3600000,
+        "iron": 900000,
+        "fire_crystal": 31
+      },
+      "time_seconds": 108840,
+      "power": 314625
+    },
+    {
+      "level": "FC2-1",
+      "requirements": [
+        "حجرة الاحتراق FC-3"
+      ],
+      "cost": {
+        "food": 19000000,
+        "wood": 19000000,
+        "coal": 3900000,
+        "iron": 990000,
+        "fire_crystal": 47
+      },
+      "time_seconds": 133020,
+      "power": 323235
+    },
+    {
+      "level": "FC2-2",
+      "requirements": [
+        "حجرة الاحتراق FC-3"
+      ],
+      "cost": {
+        "food": 19000000,
+        "wood": 19000000,
+        "coal": 3900000,
+        "iron": 990000,
+        "fire_crystal": 47
+      },
+      "time_seconds": 133020,
+      "power": 331845
+    },
+    {
+      "level": "FC2-3",
+      "requirements": [
+        "حجرة الاحتراق FC-3"
+      ],
+      "cost": {
+        "food": 19000000,
+        "wood": 19000000,
+        "coal": 3900000,
+        "iron": 990000,
+        "fire_crystal": 47
+      },
+      "time_seconds": 133020,
+      "power": 340455
+    },
+    {
+      "level": "FC2-4",
+      "requirements": [
+        "حجرة الاحتراق FC-3"
+      ],
+      "cost": {
+        "food": 19000000,
+        "wood": 19000000,
+        "coal": 3900000,
+        "iron": 990000,
+        "fire_crystal": 47
+      },
+      "time_seconds": 133020,
+      "power": 349065
+    },
+    {
+      "level": "FC3",
+      "requirements": [
+        "حجرة الاحتراق FC-3"
+      ],
+      "cost": {
+        "food": 19000000,
+        "wood": 19000000,
+        "coal": 3900000,
+        "iron": 990000,
+        "fire_crystal": 47
+      },
+      "time_seconds": 133020,
+      "power": 357675
+    },
+    {
+      "level": "FC3-1",
+      "requirements": [
+        "حجرة الاحتراق FC-4"
+      ],
+      "cost": {
+        "food": 20000000,
+        "wood": 20000000,
+        "coal": 4100000,
+        "iron": 1000000,
+        "fire_crystal": 56
+      },
+      "time_seconds": 145140,
+      "power": 367155
+    },
+    {
+      "level": "FC3-2",
+      "requirements": [
+        "حجرة الاحتراق FC-4"
+      ],
+      "cost": {
+        "food": 20000000,
+        "wood": 20000000,
+        "coal": 4100000,
+        "iron": 1000000,
+        "fire_crystal": 56
+      },
+      "time_seconds": 145140,
+      "power": 376635
+    },
+    {
+      "level": "FC3-3",
+      "requirements": [
+        "حجرة الاحتراق FC-4"
+      ],
+      "cost": {
+        "food": 20000000,
+        "wood": 20000000,
+        "coal": 4100000,
+        "iron": 1000000,
+        "fire_crystal": 56
+      },
+      "time_seconds": 145140,
+      "power": 386115
+    },
+    {
+      "level": "FC3-4",
+      "requirements": [
+        "حجرة الاحتراق FC-4"
+      ],
+      "cost": {
+        "food": 20000000,
+        "wood": 20000000,
+        "coal": 4100000,
+        "iron": 1000000,
+        "fire_crystal": 56
+      },
+      "time_seconds": 145140,
+      "power": 395595
+    },
+    {
+      "level": "FC4",
+      "requirements": [
+        "حجرة الاحتراق FC-4"
+      ],
+      "cost": {
+        "food": 20000000,
+        "wood": 20000000,
+        "coal": 4100000,
+        "iron": 1000000,
+        "fire_crystal": 56
+      },
+      "time_seconds": 145140,
+      "power": 405075
+    },
+    {
+      "level": "FC4-1",
+      "requirements": [
+        "حجرة الاحتراق FC-5"
+      ],
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000,
+        "fire_crystal": 67
+      },
+      "time_seconds": 169320,
+      "power": 405075
+    },
+    {
+      "level": "FC4-2",
+      "requirements": [
+        "حجرة الاحتراق FC-5"
+      ],
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000,
+        "fire_crystal": 67
+      },
+      "time_seconds": 169320,
+      "power": 414555
+    },
+    {
+      "level": "FC4-3",
+      "requirements": [
+        "حجرة الاحتراق FC-5"
+      ],
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000,
+        "fire_crystal": 67
+      },
+      "time_seconds": 169320,
+      "power": 424035
+    },
+    {
+      "level": "FC4-4",
+      "requirements": [
+        "حجرة الاحتراق FC-5"
+      ],
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000,
+        "fire_crystal": 67
+      },
+      "time_seconds": 169320,
+      "power": 442995
+    },
+    {
+      "level": "FC5",
+      "requirements": [
+        "حجرة الاحتراق FC-5"
+      ],
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000,
+        "fire_crystal": 67
+      },
+      "time_seconds": 169320,
+      "power": 452475
+    },
+    {
+      "level": "FC5-1",
+      "requirements": [
+        "حجرة الاحتراق FC-6"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000,
+        "fire_crystal": 40,
+        "refined_fire_crystal": 2
+      },
+      "time_seconds": 181440,
+      "power": 462615
+    },
+    {
+      "level": "FC5-2",
+      "requirements": [
+        "حجرة الاحتراق FC-6"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000,
+        "fire_crystal": 40,
+        "refined_fire_crystal": 2
+      },
+      "time_seconds": 181440,
+      "power": 472755
+    },
+    {
+      "level": "FC5-3",
+      "requirements": [
+        "حجرة الاحتراق FC-6"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000,
+        "fire_crystal": 40,
+        "refined_fire_crystal": 2
+      },
+      "time_seconds": 181440,
+      "power": 482895
+    },
+    {
+      "level": "FC5-4",
+      "requirements": [
+        "حجرة الاحتراق FC-6"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000,
+        "fire_crystal": 40,
+        "refined_fire_crystal": 2
+      },
+      "time_seconds": 181440,
+      "power": 493035
+    },
+    {
+      "level": "FC6",
+      "requirements": [
+        "حجرة الاحتراق FC-6"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000,
+        "fire_crystal": 20,
+        "refined_fire_crystal": 4
+      },
+      "time_seconds": 181440,
+      "power": 503175
+    },
+    {
+      "level": "FC6-1",
+      "requirements": [
+        "حجرة الاحتراق FC-7"
+      ],
+      "cost": {
+        "food": 27000000,
+        "wood": 27000000,
+        "coal": 5400000,
+        "iron": 1300000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 3
+      },
+      "time_seconds": 217680,
+      "power": 513315
+    },
+    {
+      "level": "FC6-2",
+      "requirements": [
+        "حجرة الاحتراق FC-7"
+      ],
+      "cost": {
+        "food": 27000000,
+        "wood": 27000000,
+        "coal": 5400000,
+        "iron": 1300000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 3
+      },
+      "time_seconds": 217680,
+      "power": 523455
+    },
+    {
+      "level": "FC6-3",
+      "requirements": [
+        "حجرة الاحتراق FC-7"
+      ],
+      "cost": {
+        "food": 27000000,
+        "wood": 27000000,
+        "coal": 5400000,
+        "iron": 1300000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 3
+      },
+      "time_seconds": 217680,
+      "power": 533595
+    },
+    {
+      "level": "FC6-4",
+      "requirements": [
+        "حجرة الاحتراق FC-7"
+      ],
+      "cost": {
+        "food": 27000000,
+        "wood": 27000000,
+        "coal": 5400000,
+        "iron": 1300000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 3
+      },
+      "time_seconds": 217680,
+      "power": 543735
+    },
+    {
+      "level": "FC7",
+      "requirements": [
+        "حجرة الاحتراق FC-7"
+      ],
+      "cost": {
+        "food": 27000000,
+        "wood": 27000000,
+        "coal": 5400000,
+        "iron": 1300000,
+        "fire_crystal": 24,
+        "refined_fire_crystal": 6
+      },
+      "time_seconds": 217680,
+      "power": 553875
+    },
+    {
+      "level": "FC7-1",
+      "requirements": [
+        "حجرة الاحتراق FC-8"
+      ],
+      "cost": {
+        "food": 33000000,
+        "wood": 33000000,
+        "coal": 6600000,
+        "iron": 1600000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 4
+      },
+      "time_seconds": 241920,
+      "power": 564015
+    },
+    {
+      "level": "FC7-2",
+      "requirements": [
+        "حجرة الاحتراق FC-8"
+      ],
+      "cost": {
+        "food": 33000000,
+        "wood": 33000000,
+        "coal": 6600000,
+        "iron": 1600000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 4
+      },
+      "time_seconds": 241920,
+      "power": 574155
+    },
+    {
+      "level": "FC7-3",
+      "requirements": [
+        "حجرة الاحتراق FC-8"
+      ],
+      "cost": {
+        "food": 33000000,
+        "wood": 33000000,
+        "coal": 6600000,
+        "iron": 1600000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 4
+      },
+      "time_seconds": 241920,
+      "power": 584295
+    },
+    {
+      "level": "FC7-4",
+      "requirements": [
+        "حجرة الاحتراق FC-8"
+      ],
+      "cost": {
+        "food": 33000000,
+        "wood": 33000000,
+        "coal": 6600000,
+        "iron": 1600000,
+        "fire_crystal": 48,
+        "refined_fire_crystal": 4
+      },
+      "time_seconds": 241920,
+      "power": 594435
+    },
+    {
+      "level": "FC8",
+      "requirements": [
+        "حجرة الاحتراق FC-8"
+      ],
+      "cost": {
+        "food": 33000000,
+        "wood": 33000000,
+        "coal": 6600000,
+        "iron": 1600000,
+        "fire_crystal": 24,
+        "refined_fire_crystal": 8
+      },
+      "time_seconds": 241920,
+      "power": 604575
+    },
+    {
+      "level": "FC8-1",
+      "requirements": [
+        "حجرة الاحتراق FC-9"
+      ],
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7200000,
+        "iron": 1800000,
+        "fire_crystal": 56,
+        "refined_fire_crystal": 6
+      },
+      "time_seconds": 157200,
+      "power": 615435
+    },
+    {
+      "level": "FC8-2",
+      "requirements": [
+        "حجرة الاحتراق FC-9"
+      ],
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7200000,
+        "iron": 1800000,
+        "fire_crystal": 56,
+        "refined_fire_crystal": 6
+      },
+      "time_seconds": 157200,
+      "power": 626295
+    },
+    {
+      "level": "FC8-3",
+      "requirements": [
+        "حجرة الاحتراق FC-9"
+      ],
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7200000,
+        "iron": 1800000,
+        "fire_crystal": 56,
+        "refined_fire_crystal": 6
+      },
+      "time_seconds": 157200,
+      "power": 637155
+    },
+    {
+      "level": "FC8-4",
+      "requirements": [
+        "حجرة الاحتراق FC-9"
+      ],
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7200000,
+        "iron": 1800000,
+        "fire_crystal": 56,
+        "refined_fire_crystal": 6
+      },
+      "time_seconds": 157200,
+      "power": 648015
+    },
+    {
+      "level": "FC9",
+      "requirements": [
+        "حجرة الاحتراق FC-9"
+      ],
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7200000,
+        "iron": 1800000,
+        "fire_crystal": 28,
+        "refined_fire_crystal": 12
+      },
+      "time_seconds": 157200,
+      "power": 658875
+    },
+    {
+      "level": "FC9-1",
+      "requirements": [
+        "حجرة الاحتراق FC-10"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000,
+        "fire_crystal": 70,
+        "refined_fire_crystal": 14
+      },
+      "time_seconds": 241920,
+      "power": 669735
+    },
+    {
+      "level": "FC9-2",
+      "requirements": [
+        "حجرة الاحتراق FC-10"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000,
+        "fire_crystal": 70,
+        "refined_fire_crystal": 14
+      },
+      "time_seconds": 241920,
+      "power": 680595
+    },
+    {
+      "level": "FC9-3",
+      "requirements": [
+        "حجرة الاحتراق FC-10"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000,
+        "fire_crystal": 70,
+        "refined_fire_crystal": 14
+      },
+      "time_seconds": 241920,
+      "power": 691455
+    },
+    {
+      "level": "FC9-4",
+      "requirements": [
+        "حجرة الاحتراق FC-10"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000,
+        "fire_crystal": 70,
+        "refined_fire_crystal": 14
+      },
+      "time_seconds": 241920,
+      "power": 702315
+    },
+    {
+      "level": "FC10",
+      "requirements": [
+        "حجرة الاحتراق FC-10"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000,
+        "fire_crystal": 35,
+        "refined_fire_crystal": 28
+      },
+      "time_seconds": 241920,
+      "power": 713175
+    }
+  ]
+}

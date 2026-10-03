@@ -1,0 +1,841 @@
+{
+  "system": "fire_crystal_furnace",
+  "name_ar": "حجرة الاحتراق للكريستال الناري",
+  "source": "https://www.whiteoutsurvival.wiki/buildings/fire-crystal-furnace/",
+  "resources_order": [
+    "wood",
+    "coal",
+    "iron",
+    "food",
+    "fire_crystal",
+    "refined_fire_crystal"
+  ],
+  "note": "هذا امتداد لحجرة الاحتراق بعد مستوى 30 العادي. من مستوى 30-1 إلى FC10. يظهر مورد الكريستال الناري من البداية، والكريستال الناري المكرر من FC5 فما فوق. المتطلبات تشترط مستوى مطابق من السفارة ومعسكر عسكري متغير (يتبدل بالترتيب: رماح، مشاة، رماية).",
+  "levels": [
+    {
+      "level": "30-1",
+      "requirements": [
+        "السفارة مستوى 30",
+        "مركز البحوث مستوى 30"
+      ],
+      "cost": {
+        "food": 67000000,
+        "wood": 67000000,
+        "coal": 13000000,
+        "iron": 3300000,
+        "fire_crystal": 132
+      },
+      "time_seconds": 604800,
+      "power": 1580900
+    },
+    {
+      "level": "30-2",
+      "requirements": [
+        "السفارة مستوى 30",
+        "مركز البحوث مستوى 30"
+      ],
+      "cost": {
+        "food": 67000000,
+        "wood": 67000000,
+        "coal": 13000000,
+        "iron": 3300000,
+        "fire_crystal": 132
+      },
+      "time_seconds": 604800,
+      "power": 1638300
+    },
+    {
+      "level": "30-3",
+      "requirements": [
+        "السفارة مستوى 30",
+        "مركز البحوث مستوى 30"
+      ],
+      "cost": {
+        "food": 67000000,
+        "wood": 67000000,
+        "coal": 13000000,
+        "iron": 3300000,
+        "fire_crystal": 132
+      },
+      "time_seconds": 604800,
+      "power": 1695700
+    },
+    {
+      "level": "30-4",
+      "requirements": [
+        "السفارة مستوى 30",
+        "مركز البحوث مستوى 30"
+      ],
+      "cost": {
+        "food": 67000000,
+        "wood": 67000000,
+        "coal": 13000000,
+        "iron": 3300000,
+        "fire_crystal": 132
+      },
+      "time_seconds": 604800,
+      "power": 1753100
+    },
+    {
+      "level": "FC1",
+      "requirements": [
+        "السفارة مستوى 30",
+        "مركز البحوث مستوى 30"
+      ],
+      "cost": {
+        "food": 67000000,
+        "wood": 67000000,
+        "coal": 13000000,
+        "iron": 3300000,
+        "fire_crystal": 132
+      },
+      "time_seconds": 604800,
+      "power": 1810500
+    },
+    {
+      "level": "FC1-1",
+      "requirements": [
+        "السفارة FC1",
+        "معسكر رماة الرمح FC1"
+      ],
+      "cost": {
+        "food": 72000000,
+        "wood": 72000000,
+        "coal": 14000000,
+        "iron": 3600000,
+        "fire_crystal": 158
+      },
+      "time_seconds": 777600,
+      "power": 1867900
+    },
+    {
+      "level": "FC1-2",
+      "requirements": [
+        "السفارة FC1",
+        "معسكر رماة الرمح FC1"
+      ],
+      "cost": {
+        "food": 72000000,
+        "wood": 72000000,
+        "coal": 14000000,
+        "iron": 3600000,
+        "fire_crystal": 158
+      },
+      "time_seconds": 777600,
+      "power": 1925300
+    },
+    {
+      "level": "FC1-3",
+      "requirements": [
+        "السفارة FC1",
+        "معسكر رماة الرمح FC1"
+      ],
+      "cost": {
+        "food": 72000000,
+        "wood": 72000000,
+        "coal": 14000000,
+        "iron": 3600000,
+        "fire_crystal": 158
+      },
+      "time_seconds": 777600,
+      "power": 1982700
+    },
+    {
+      "level": "FC1-4",
+      "requirements": [
+        "السفارة FC1",
+        "معسكر رماة الرمح FC1"
+      ],
+      "cost": {
+        "food": 72000000,
+        "wood": 72000000,
+        "coal": 14000000,
+        "iron": 3600000,
+        "fire_crystal": 158
+      },
+      "time_seconds": 777600,
+      "power": 2040100
+    },
+    {
+      "level": "FC2",
+      "requirements": [
+        "السفارة FC1",
+        "معسكر رماة الرمح FC1"
+      ],
+      "cost": {
+        "food": 72000000,
+        "wood": 72000000,
+        "coal": 14000000,
+        "iron": 3600000,
+        "fire_crystal": 158
+      },
+      "time_seconds": 777600,
+      "power": 2097500
+    },
+    {
+      "level": "FC2-1",
+      "requirements": [
+        "السفارة FC2",
+        "معسكر المشاة FC2"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000,
+        "fire_crystal": 238
+      },
+      "time_seconds": 950400,
+      "power": 2154900
+    },
+    {
+      "level": "FC2-2",
+      "requirements": [
+        "السفارة FC2",
+        "معسكر المشاة FC2"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000,
+        "fire_crystal": 238
+      },
+      "time_seconds": 950400,
+      "power": 2212300
+    },
+    {
+      "level": "FC2-3",
+      "requirements": [
+        "السفارة FC2",
+        "معسكر المشاة FC2"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000,
+        "fire_crystal": 238
+      },
+      "time_seconds": 950400,
+      "power": 2269700
+    },
+    {
+      "level": "FC2-4",
+      "requirements": [
+        "السفارة FC2",
+        "معسكر المشاة FC2"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000,
+        "fire_crystal": 238
+      },
+      "time_seconds": 950400,
+      "power": 2327100
+    },
+    {
+      "level": "FC3",
+      "requirements": [
+        "السفارة FC2",
+        "معسكر المشاة FC2"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000,
+        "fire_crystal": 238
+      },
+      "time_seconds": 950400,
+      "power": 2384500
+    },
+    {
+      "level": "FC3-1",
+      "requirements": [
+        "السفارة FC3",
+        "معسكر الرماية FC3"
+      ],
+      "cost": {
+        "food": 82000000,
+        "wood": 82000000,
+        "coal": 16000000,
+        "iron": 4100000,
+        "fire_crystal": 280
+      },
+      "time_seconds": 1036800,
+      "power": 2447700
+    },
+    {
+      "level": "FC3-2",
+      "requirements": [
+        "السفارة FC3",
+        "معسكر الرماية FC3"
+      ],
+      "cost": {
+        "food": 82000000,
+        "wood": 82000000,
+        "coal": 16000000,
+        "iron": 4100000,
+        "fire_crystal": 280
+      },
+      "time_seconds": 1036800,
+      "power": 2510900
+    },
+    {
+      "level": "FC3-3",
+      "requirements": [
+        "السفارة FC3",
+        "معسكر الرماية FC3"
+      ],
+      "cost": {
+        "food": 82000000,
+        "wood": 82000000,
+        "coal": 16000000,
+        "iron": 4100000,
+        "fire_crystal": 280
+      },
+      "time_seconds": 1036800,
+      "power": 2574100
+    },
+    {
+      "level": "FC3-4",
+      "requirements": [
+        "السفارة FC3",
+        "معسكر الرماية FC3"
+      ],
+      "cost": {
+        "food": 82000000,
+        "wood": 82000000,
+        "coal": 16000000,
+        "iron": 4100000,
+        "fire_crystal": 280
+      },
+      "time_seconds": 1036800,
+      "power": 2637300
+    },
+    {
+      "level": "FC4",
+      "requirements": [
+        "السفارة FC3",
+        "معسكر الرماية FC3"
+      ],
+      "cost": {
+        "food": 82000000,
+        "wood": 82000000,
+        "coal": 16000000,
+        "iron": 4100000,
+        "fire_crystal": 280
+      },
+      "time_seconds": 1036800,
+      "power": 2700500
+    },
+    {
+      "level": "FC4-1",
+      "requirements": [
+        "السفارة FC4",
+        "معسكر رماة الرمح FC4"
+      ],
+      "cost": {
+        "food": 84000000,
+        "wood": 84000000,
+        "coal": 16000000,
+        "iron": 4200000,
+        "fire_crystal": 335
+      },
+      "time_seconds": 1209600,
+      "power": 2763700
+    },
+    {
+      "level": "FC4-2",
+      "requirements": [
+        "السفارة FC4",
+        "معسكر رماة الرمح FC4"
+      ],
+      "cost": {
+        "food": 84000000,
+        "wood": 84000000,
+        "coal": 16000000,
+        "iron": 4200000,
+        "fire_crystal": 335
+      },
+      "time_seconds": 1209600,
+      "power": 2826900
+    },
+    {
+      "level": "FC4-3",
+      "requirements": [
+        "السفارة FC4",
+        "معسكر رماة الرمح FC4"
+      ],
+      "cost": {
+        "food": 84000000,
+        "wood": 84000000,
+        "coal": 16000000,
+        "iron": 4200000,
+        "fire_crystal": 335
+      },
+      "time_seconds": 1209600,
+      "power": 2890100
+    },
+    {
+      "level": "FC4-4",
+      "requirements": [
+        "السفارة FC4",
+        "معسكر رماة الرمح FC4"
+      ],
+      "cost": {
+        "food": 84000000,
+        "wood": 84000000,
+        "coal": 16000000,
+        "iron": 4200000,
+        "fire_crystal": 335
+      },
+      "time_seconds": 1209600,
+      "power": 2953300
+    },
+    {
+      "level": "FC5",
+      "requirements": [
+        "السفارة FC4",
+        "معسكر رماة الرمح FC4"
+      ],
+      "cost": {
+        "food": 84000000,
+        "wood": 84000000,
+        "coal": 16000000,
+        "iron": 4200000,
+        "fire_crystal": 335
+      },
+      "time_seconds": 1209600,
+      "power": 3016500
+    },
+    {
+      "level": "FC5-1",
+      "requirements": [
+        "السفارة FC5",
+        "معسكر المشاة FC5"
+      ],
+      "cost": {
+        "food": 96000000,
+        "wood": 96000000,
+        "coal": 19000000,
+        "iron": 4800000,
+        "fire_crystal": 200,
+        "refined_fire_crystal": 10
+      },
+      "time_seconds": 1296000,
+      "power": 3084100
+    },
+    {
+      "level": "FC5-2",
+      "requirements": [
+        "السفارة FC5",
+        "معسكر المشاة FC5"
+      ],
+      "cost": {
+        "food": 96000000,
+        "wood": 96000000,
+        "coal": 19000000,
+        "iron": 4800000,
+        "fire_crystal": 200,
+        "refined_fire_crystal": 10
+      },
+      "time_seconds": 1296000,
+      "power": 3151700
+    },
+    {
+      "level": "FC5-3",
+      "requirements": [
+        "السفارة FC5",
+        "معسكر المشاة FC5"
+      ],
+      "cost": {
+        "food": 96000000,
+        "wood": 96000000,
+        "coal": 19000000,
+        "iron": 4800000,
+        "fire_crystal": 200,
+        "refined_fire_crystal": 10
+      },
+      "time_seconds": 1296000,
+      "power": 3219300
+    },
+    {
+      "level": "FC5-4",
+      "requirements": [
+        "السفارة FC5",
+        "معسكر المشاة FC5"
+      ],
+      "cost": {
+        "food": 96000000,
+        "wood": 96000000,
+        "coal": 19000000,
+        "iron": 4800000,
+        "fire_crystal": 200,
+        "refined_fire_crystal": 10
+      },
+      "time_seconds": 1296000,
+      "power": 3286900
+    },
+    {
+      "level": "FC6",
+      "requirements": [
+        "السفارة FC5",
+        "معسكر المشاة FC5"
+      ],
+      "cost": {
+        "food": 96000000,
+        "wood": 96000000,
+        "coal": 19000000,
+        "iron": 4800000,
+        "fire_crystal": 100,
+        "refined_fire_crystal": 20
+      },
+      "time_seconds": 1296000,
+      "power": 3354500
+    },
+    {
+      "level": "FC6-1",
+      "requirements": [
+        "السفارة FC6",
+        "معسكر الرماية FC6"
+      ],
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5400000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 15
+      },
+      "time_seconds": 1555200,
+      "power": 3422100
+    },
+    {
+      "level": "FC6-2",
+      "requirements": [
+        "السفارة FC6",
+        "معسكر الرماية FC6"
+      ],
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5400000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 15
+      },
+      "time_seconds": 1555200,
+      "power": 3489700
+    },
+    {
+      "level": "FC6-3",
+      "requirements": [
+        "السفارة FC6",
+        "معسكر الرماية FC6"
+      ],
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5400000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 15
+      },
+      "time_seconds": 1555200,
+      "power": 3557300
+    },
+    {
+      "level": "FC6-4",
+      "requirements": [
+        "السفارة FC6",
+        "معسكر الرماية FC6"
+      ],
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5400000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 15
+      },
+      "time_seconds": 1555200,
+      "power": 3624900
+    },
+    {
+      "level": "FC7",
+      "requirements": [
+        "السفارة FC6",
+        "معسكر الرماية FC6"
+      ],
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5400000,
+        "fire_crystal": 120,
+        "refined_fire_crystal": 30
+      },
+      "time_seconds": 1555200,
+      "power": 3692500
+    },
+    {
+      "level": "FC7-1",
+      "requirements": [
+        "السفارة FC7",
+        "معسكر رماة الرمح FC7"
+      ],
+      "cost": {
+        "food": 130000000,
+        "wood": 130000000,
+        "coal": 26000000,
+        "iron": 6600000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 20
+      },
+      "time_seconds": 1728000,
+      "power": 3760100
+    },
+    {
+      "level": "FC7-2",
+      "requirements": [
+        "السفارة FC7",
+        "معسكر رماة الرمح FC7"
+      ],
+      "cost": {
+        "food": 130000000,
+        "wood": 130000000,
+        "coal": 26000000,
+        "iron": 6600000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 20
+      },
+      "time_seconds": 1728000,
+      "power": 3827700
+    },
+    {
+      "level": "FC7-3",
+      "requirements": [
+        "السفارة FC7",
+        "معسكر رماة الرمح FC7"
+      ],
+      "cost": {
+        "food": 130000000,
+        "wood": 130000000,
+        "coal": 26000000,
+        "iron": 6600000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 20
+      },
+      "time_seconds": 1728000,
+      "power": 3895300
+    },
+    {
+      "level": "FC7-4",
+      "requirements": [
+        "السفارة FC7",
+        "معسكر رماة الرمح FC7"
+      ],
+      "cost": {
+        "food": 130000000,
+        "wood": 130000000,
+        "coal": 26000000,
+        "iron": 6600000,
+        "fire_crystal": 240,
+        "refined_fire_crystal": 20
+      },
+      "time_seconds": 1728000,
+      "power": 3962900
+    },
+    {
+      "level": "FC8",
+      "requirements": [
+        "السفارة FC7",
+        "معسكر رماة الرمح FC7"
+      ],
+      "cost": {
+        "food": 130000000,
+        "wood": 130000000,
+        "coal": 26000000,
+        "iron": 6600000,
+        "fire_crystal": 120,
+        "refined_fire_crystal": 40
+      },
+      "time_seconds": 1728000,
+      "power": 4030500
+    },
+    {
+      "level": "FC8-1",
+      "requirements": [
+        "السفارة FC8",
+        "معسكر المشاة FC8"
+      ],
+      "cost": {
+        "food": 140000000,
+        "wood": 140000000,
+        "coal": 29000000,
+        "iron": 7200000,
+        "fire_crystal": 280,
+        "refined_fire_crystal": 30
+      },
+      "time_seconds": 1123200,
+      "power": 4102900
+    },
+    {
+      "level": "FC8-2",
+      "requirements": [
+        "السفارة FC8",
+        "معسكر المشاة FC8"
+      ],
+      "cost": {
+        "food": 140000000,
+        "wood": 140000000,
+        "coal": 29000000,
+        "iron": 7200000,
+        "fire_crystal": 280,
+        "refined_fire_crystal": 30
+      },
+      "time_seconds": 1123200,
+      "power": 4175300
+    },
+    {
+      "level": "FC8-3",
+      "requirements": [
+        "السفارة FC8",
+        "معسكر المشاة FC8"
+      ],
+      "cost": {
+        "food": 140000000,
+        "wood": 140000000,
+        "coal": 29000000,
+        "iron": 7200000,
+        "fire_crystal": 280,
+        "refined_fire_crystal": 30
+      },
+      "time_seconds": 1123200,
+      "power": 4247700
+    },
+    {
+      "level": "FC8-4",
+      "requirements": [
+        "السفارة FC8",
+        "معسكر المشاة FC8"
+      ],
+      "cost": {
+        "food": 140000000,
+        "wood": 140000000,
+        "coal": 29000000,
+        "iron": 7200000,
+        "fire_crystal": 280,
+        "refined_fire_crystal": 30
+      },
+      "time_seconds": 1123200,
+      "power": 4320100
+    },
+    {
+      "level": "FC9",
+      "requirements": [
+        "السفارة FC8",
+        "معسكر المشاة FC8"
+      ],
+      "cost": {
+        "food": 140000000,
+        "wood": 140000000,
+        "coal": 29000000,
+        "iron": 7200000,
+        "fire_crystal": 140,
+        "refined_fire_crystal": 60
+      },
+      "time_seconds": 1123200,
+      "power": 4392500
+    },
+    {
+      "level": "FC9-1",
+      "requirements": [
+        "السفارة FC9",
+        "معسكر الرماية FC9"
+      ],
+      "cost": {
+        "food": 160000000,
+        "wood": 160000000,
+        "coal": 33000000,
+        "iron": 8400000,
+        "fire_crystal": 350,
+        "refined_fire_crystal": 70
+      },
+      "time_seconds": 1728000,
+      "power": 4464900
+    },
+    {
+      "level": "FC9-2",
+      "requirements": [
+        "السفارة FC9",
+        "معسكر الرماية FC9"
+      ],
+      "cost": {
+        "food": 160000000,
+        "wood": 160000000,
+        "coal": 33000000,
+        "iron": 8400000,
+        "fire_crystal": 350,
+        "refined_fire_crystal": 70
+      },
+      "time_seconds": 1728000,
+      "power": 4537300
+    },
+    {
+      "level": "FC9-3",
+      "requirements": [
+        "السفارة FC9",
+        "معسكر الرماية FC9"
+      ],
+      "cost": {
+        "food": 160000000,
+        "wood": 160000000,
+        "coal": 33000000,
+        "iron": 8400000,
+        "fire_crystal": 350,
+        "refined_fire_crystal": 70
+      },
+      "time_seconds": 1728000,
+      "power": 4609700
+    },
+    {
+      "level": "FC9-4",
+      "requirements": [
+        "السفارة FC9",
+        "معسكر الرماية FC9"
+      ],
+      "cost": {
+        "food": 160000000,
+        "wood": 160000000,
+        "coal": 33000000,
+        "iron": 8400000,
+        "fire_crystal": 350,
+        "refined_fire_crystal": 70
+      },
+      "time_seconds": 1728000,
+      "power": 4682100
+    },
+    {
+      "level": "FC10",
+      "requirements": [
+        "السفارة FC9",
+        "معسكر الرماية FC9"
+      ],
+      "cost": {
+        "food": 160000000,
+        "wood": 160000000,
+        "coal": 33000000,
+        "iron": 8400000,
+        "fire_crystal": 175,
+        "refined_fire_crystal": 140
+      },
+      "time_seconds": 1728000,
+      "power": 4754500
+    }
+  ]
+}

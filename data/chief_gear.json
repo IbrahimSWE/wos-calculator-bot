@@ -1,0 +1,596 @@
+{
+  "system": "chief_gear",
+  "name_ar": "عتاد الحاكم",
+  "source": "https://www.whiteoutsurvival.wiki/chief-gear/chief-gear/",
+  "unlock_requirement": "حجرة الاحتراق مستوى 22",
+  "structure_note": "6 قطع عتاد: القبعة/الساعة تزيد هجوم ودفاع الرماح، المعطف/البنطال تزيد هجوم ودفاع المشاة، الخاتم/السلاح تزيد هجوم ودفاع الرماية. كل قطعة تترقى عبر نفس مسار الفئات (46 مرتبة من الأخضر إلى الأحمر T4). تجهيز 3 قطع بنفس الجودة يرفع الدفاع، وتجهيز 6 قطع يرفع الهجوم (بونص مجموعات).",
+  "resources_order": [
+    "hardened_alloy",
+    "polishing_solution",
+    "design_plan",
+    "lunar_amber"
+  ],
+  "note": "46 مرتبة إجمالاً من الأخضر إلى الأحمر الأسطوري T4. عمود troops_deployment_capacity يظهر فقط بدرجات الأحمر (Red/Legendary) فما فوق. القيم من الجدول الرسمي الكامل بصفحة العتاد بالويكي.",
+  "levels": [
+    {
+      "level": "Green (Uncommon) ★0",
+      "tier": "Green (Uncommon)",
+      "star": 0,
+      "cost": {
+        "hardened_alloy": 1500,
+        "polishing_solution": 15
+      },
+      "stat_bonus": "9.35%",
+      "power": 224400
+    },
+    {
+      "level": "Green (Uncommon) ★1",
+      "tier": "Green (Uncommon)",
+      "star": 1,
+      "cost": {
+        "hardened_alloy": 3800,
+        "polishing_solution": 40
+      },
+      "stat_bonus": "12.75%",
+      "power": 306000
+    },
+    {
+      "level": "Blue (Rare) ★0",
+      "tier": "Blue (Rare)",
+      "star": 0,
+      "cost": {
+        "hardened_alloy": 7000,
+        "polishing_solution": 70
+      },
+      "stat_bonus": "17.00%",
+      "power": 408000
+    },
+    {
+      "level": "Blue (Rare) ★1",
+      "tier": "Blue (Rare)",
+      "star": 1,
+      "cost": {
+        "hardened_alloy": 9700,
+        "polishing_solution": 95
+      },
+      "stat_bonus": "21.25%",
+      "power": 510000
+    },
+    {
+      "level": "Blue (Rare) ★2",
+      "tier": "Blue (Rare)",
+      "star": 2,
+      "cost": {
+        "design_plan": 45
+      },
+      "stat_bonus": "25.50%",
+      "power": 612000
+    },
+    {
+      "level": "Blue (Rare) ★3",
+      "tier": "Blue (Rare)",
+      "star": 3,
+      "cost": {
+        "design_plan": 50
+      },
+      "stat_bonus": "29.75%",
+      "power": 714000
+    },
+    {
+      "level": "Purple (Epic) ★0",
+      "tier": "Purple (Epic)",
+      "star": 0,
+      "cost": {
+        "design_plan": 60
+      },
+      "stat_bonus": "34.00%",
+      "power": 816000
+    },
+    {
+      "level": "Purple (Epic) ★1",
+      "tier": "Purple (Epic)",
+      "star": 1,
+      "cost": {
+        "design_plan": 70
+      },
+      "stat_bonus": "36.89%",
+      "power": 885360
+    },
+    {
+      "level": "Purple (Epic) ★2",
+      "tier": "Purple (Epic)",
+      "star": 2,
+      "cost": {
+        "design_plan": 40,
+        "hardened_alloy": 6500,
+        "polishing_solution": 65
+      },
+      "stat_bonus": "39.78%",
+      "power": 954720
+    },
+    {
+      "level": "Purple (Epic) ★3",
+      "tier": "Purple (Epic)",
+      "star": 3,
+      "cost": {
+        "design_plan": 50,
+        "hardened_alloy": 8000,
+        "polishing_solution": 80
+      },
+      "stat_bonus": "42.67%",
+      "power": 1024080
+    },
+    {
+      "level": "Purple (Epic) T1 ★0",
+      "tier": "Purple (Epic) T1",
+      "star": 0,
+      "cost": {
+        "design_plan": 60,
+        "hardened_alloy": 10000,
+        "polishing_solution": 95
+      },
+      "stat_bonus": "45.56%",
+      "power": 1093440
+    },
+    {
+      "level": "Purple (Epic) T1 ★1",
+      "tier": "Purple (Epic) T1",
+      "star": 1,
+      "cost": {
+        "design_plan": 70,
+        "hardened_alloy": 11000,
+        "polishing_solution": 110
+      },
+      "stat_bonus": "48.45%",
+      "power": 1162800
+    },
+    {
+      "level": "Purple (Epic) T1 ★2",
+      "tier": "Purple (Epic) T1",
+      "star": 2,
+      "cost": {
+        "design_plan": 85,
+        "hardened_alloy": 13000,
+        "polishing_solution": 130
+      },
+      "stat_bonus": "51.34%",
+      "power": 1232160
+    },
+    {
+      "level": "Purple (Epic) T1 ★3",
+      "tier": "Purple (Epic) T1",
+      "star": 3,
+      "cost": {
+        "design_plan": 100,
+        "hardened_alloy": 15000,
+        "polishing_solution": 160
+      },
+      "stat_bonus": "54.23%",
+      "power": 1301520
+    },
+    {
+      "level": "Gold (Mythic) ★0",
+      "tier": "Gold (Mythic)",
+      "star": 0,
+      "cost": {
+        "design_plan": 40,
+        "hardened_alloy": 22000,
+        "polishing_solution": 220
+      },
+      "stat_bonus": "56.78%",
+      "power": 1362720
+    },
+    {
+      "level": "Gold (Mythic) ★1",
+      "tier": "Gold (Mythic)",
+      "star": 1,
+      "cost": {
+        "design_plan": 40,
+        "hardened_alloy": 23000,
+        "polishing_solution": 230
+      },
+      "stat_bonus": "59.33%",
+      "power": 1423920
+    },
+    {
+      "level": "Gold (Mythic) ★2",
+      "tier": "Gold (Mythic)",
+      "star": 2,
+      "cost": {
+        "design_plan": 45,
+        "hardened_alloy": 25000,
+        "polishing_solution": 250
+      },
+      "stat_bonus": "61.88%",
+      "power": 1485120
+    },
+    {
+      "level": "Gold (Mythic) ★3",
+      "tier": "Gold (Mythic)",
+      "star": 3,
+      "cost": {
+        "design_plan": 45,
+        "hardened_alloy": 26000,
+        "polishing_solution": 260
+      },
+      "stat_bonus": "64.43%",
+      "power": 1546320
+    },
+    {
+      "level": "Gold (Mythic) T1 ★0",
+      "tier": "Gold (Mythic) T1",
+      "star": 0,
+      "cost": {
+        "design_plan": 45,
+        "hardened_alloy": 28000,
+        "polishing_solution": 280
+      },
+      "stat_bonus": "66.98%",
+      "power": 1607520
+    },
+    {
+      "level": "Gold (Mythic) T1 ★1",
+      "tier": "Gold (Mythic) T1",
+      "star": 1,
+      "cost": {
+        "design_plan": 55,
+        "hardened_alloy": 30000,
+        "polishing_solution": 300
+      },
+      "stat_bonus": "69.53%",
+      "power": 1668720
+    },
+    {
+      "level": "Gold (Mythic) T1 ★2",
+      "tier": "Gold (Mythic) T1",
+      "star": 2,
+      "cost": {
+        "design_plan": 55,
+        "hardened_alloy": 32000,
+        "polishing_solution": 320
+      },
+      "stat_bonus": "72.08%",
+      "power": 1729920
+    },
+    {
+      "level": "Gold (Mythic) T1 ★3",
+      "tier": "Gold (Mythic) T1",
+      "star": 3,
+      "cost": {
+        "design_plan": 55,
+        "hardened_alloy": 35000,
+        "polishing_solution": 340
+      },
+      "stat_bonus": "74.63%",
+      "power": 1791120
+    },
+    {
+      "level": "Gold (Mythic) T2 ★0",
+      "tier": "Gold (Mythic) T2",
+      "star": 0,
+      "cost": {
+        "design_plan": 55,
+        "hardened_alloy": 38000,
+        "polishing_solution": 360
+      },
+      "stat_bonus": "77.18%",
+      "power": 1852320
+    },
+    {
+      "level": "Gold (Mythic) T2 ★1",
+      "tier": "Gold (Mythic) T2",
+      "star": 1,
+      "cost": {
+        "design_plan": 75,
+        "hardened_alloy": 43000,
+        "polishing_solution": 430
+      },
+      "stat_bonus": "79.73%",
+      "power": 1913520
+    },
+    {
+      "level": "Gold (Mythic) T2 ★2",
+      "tier": "Gold (Mythic) T2",
+      "star": 2,
+      "cost": {
+        "design_plan": 80,
+        "hardened_alloy": 45000,
+        "polishing_solution": 460
+      },
+      "stat_bonus": "82.28%",
+      "power": 1974720
+    },
+    {
+      "level": "Gold (Mythic) T2 ★3",
+      "tier": "Gold (Mythic) T2",
+      "star": 3,
+      "cost": {
+        "design_plan": 85,
+        "hardened_alloy": 48000,
+        "polishing_solution": 500
+      },
+      "stat_bonus": "85.00%",
+      "power": 2040000
+    },
+    {
+      "level": "Red (Legendary) ★0",
+      "tier": "Red (Legendary)",
+      "star": 0,
+      "cost": {
+        "design_plan": 85,
+        "hardened_alloy": 50000,
+        "polishing_solution": 530,
+        "lunar_amber": 10
+      },
+      "stat_bonus": "89.25%",
+      "power": 2142000,
+      "troops_deployment_capacity": 40
+    },
+    {
+      "level": "Red (Legendary) ★1",
+      "tier": "Red (Legendary)",
+      "star": 1,
+      "cost": {
+        "design_plan": 90,
+        "hardened_alloy": 52000,
+        "polishing_solution": 560,
+        "lunar_amber": 10
+      },
+      "stat_bonus": "93.50%",
+      "power": 2244000,
+      "troops_deployment_capacity": 80
+    },
+    {
+      "level": "Red (Legendary) ★2",
+      "tier": "Red (Legendary)",
+      "star": 2,
+      "cost": {
+        "design_plan": 95,
+        "hardened_alloy": 54000,
+        "polishing_solution": 590,
+        "lunar_amber": 10
+      },
+      "stat_bonus": "97.75%",
+      "power": 2346000,
+      "troops_deployment_capacity": 120
+    },
+    {
+      "level": "Red (Legendary) ★3",
+      "tier": "Red (Legendary)",
+      "star": 3,
+      "cost": {
+        "design_plan": 100,
+        "hardened_alloy": 56000,
+        "polishing_solution": 620,
+        "lunar_amber": 10
+      },
+      "stat_bonus": "102.00%",
+      "power": 2448000,
+      "troops_deployment_capacity": 160
+    },
+    {
+      "level": "Red (Legendary) T1 ★0",
+      "tier": "Red (Legendary) T1",
+      "star": 0,
+      "cost": {
+        "design_plan": 110,
+        "hardened_alloy": 59000,
+        "polishing_solution": 670,
+        "lunar_amber": 15
+      },
+      "stat_bonus": "106.25%",
+      "power": 2550000,
+      "troops_deployment_capacity": 290
+    },
+    {
+      "level": "Red (Legendary) T1 ★1",
+      "tier": "Red (Legendary) T1",
+      "star": 1,
+      "cost": {
+        "design_plan": 115,
+        "hardened_alloy": 61000,
+        "polishing_solution": 700,
+        "lunar_amber": 15
+      },
+      "stat_bonus": "110.50%",
+      "power": 2652000,
+      "troops_deployment_capacity": 330
+    },
+    {
+      "level": "Red (Legendary) T1 ★2",
+      "tier": "Red (Legendary) T1",
+      "star": 2,
+      "cost": {
+        "design_plan": 120,
+        "hardened_alloy": 63000,
+        "polishing_solution": 730,
+        "lunar_amber": 15
+      },
+      "stat_bonus": "114.75%",
+      "power": 2754000,
+      "troops_deployment_capacity": 370
+    },
+    {
+      "level": "Red (Legendary) T1 ★3",
+      "tier": "Red (Legendary) T1",
+      "star": 3,
+      "cost": {
+        "design_plan": 125,
+        "hardened_alloy": 65000,
+        "polishing_solution": 760,
+        "lunar_amber": 15
+      },
+      "stat_bonus": "119.00%",
+      "power": 2856000,
+      "troops_deployment_capacity": 410
+    },
+    {
+      "level": "Red (Legendary) T2 ★0",
+      "tier": "Red (Legendary) T2",
+      "star": 0,
+      "cost": {
+        "design_plan": 135,
+        "hardened_alloy": 68000,
+        "polishing_solution": 810,
+        "lunar_amber": 20
+      },
+      "stat_bonus": "123.25%",
+      "power": 2958000,
+      "troops_deployment_capacity": 540
+    },
+    {
+      "level": "Red (Legendary) T2 ★1",
+      "tier": "Red (Legendary) T2",
+      "star": 1,
+      "cost": {
+        "design_plan": 140,
+        "hardened_alloy": 70000,
+        "polishing_solution": 840,
+        "lunar_amber": 20
+      },
+      "stat_bonus": "127.50%",
+      "power": 3060000,
+      "troops_deployment_capacity": 580
+    },
+    {
+      "level": "Red (Legendary) T2 ★2",
+      "tier": "Red (Legendary) T2",
+      "star": 2,
+      "cost": {
+        "design_plan": 145,
+        "hardened_alloy": 72000,
+        "polishing_solution": 870,
+        "lunar_amber": 20
+      },
+      "stat_bonus": "131.75%",
+      "power": 3162000,
+      "troops_deployment_capacity": 620
+    },
+    {
+      "level": "Red (Legendary) T2 ★3",
+      "tier": "Red (Legendary) T2",
+      "star": 3,
+      "cost": {
+        "design_plan": 150,
+        "hardened_alloy": 74000,
+        "polishing_solution": 900,
+        "lunar_amber": 20
+      },
+      "stat_bonus": "136.00%",
+      "power": 3264000,
+      "troops_deployment_capacity": 660
+    },
+    {
+      "level": "Red (Legendary) T3 ★0",
+      "tier": "Red (Legendary) T3",
+      "star": 0,
+      "cost": {
+        "design_plan": 160,
+        "hardened_alloy": 77000,
+        "polishing_solution": 950,
+        "lunar_amber": 25
+      },
+      "stat_bonus": "140.25%",
+      "power": 3366000,
+      "troops_deployment_capacity": 790
+    },
+    {
+      "level": "Red (Legendary) T3 ★1",
+      "tier": "Red (Legendary) T3",
+      "star": 1,
+      "cost": {
+        "design_plan": 165,
+        "hardened_alloy": 80000,
+        "polishing_solution": 990,
+        "lunar_amber": 25
+      },
+      "stat_bonus": "144.50%",
+      "power": 3468000,
+      "troops_deployment_capacity": 830
+    },
+    {
+      "level": "Red (Legendary) T3 ★2",
+      "tier": "Red (Legendary) T3",
+      "star": 2,
+      "cost": {
+        "design_plan": 170,
+        "hardened_alloy": 83000,
+        "polishing_solution": 1030,
+        "lunar_amber": 25
+      },
+      "stat_bonus": "148.75%",
+      "power": 3570000,
+      "troops_deployment_capacity": 870
+    },
+    {
+      "level": "Red (Legendary) T3 ★3",
+      "tier": "Red (Legendary) T3",
+      "star": 3,
+      "cost": {
+        "design_plan": 180,
+        "hardened_alloy": 86000,
+        "polishing_solution": 1070,
+        "lunar_amber": 25
+      },
+      "stat_bonus": "153.00%",
+      "power": 3672000,
+      "troops_deployment_capacity": 910
+    },
+    {
+      "level": "Red (Legendary) T4 ★0",
+      "tier": "Red (Legendary) T4",
+      "star": 0,
+      "cost": {
+        "design_plan": 250,
+        "hardened_alloy": 120000,
+        "polishing_solution": 1500,
+        "lunar_amber": 40
+      },
+      "stat_bonus": "161.50%",
+      "power": 3876000,
+      "troops_deployment_capacity": 1050
+    },
+    {
+      "level": "Red (Legendary) T4 ★1",
+      "tier": "Red (Legendary) T4",
+      "star": 1,
+      "cost": {
+        "design_plan": 275,
+        "hardened_alloy": 140000,
+        "polishing_solution": 1650,
+        "lunar_amber": 40
+      },
+      "stat_bonus": "170.00%",
+      "power": 4080000,
+      "troops_deployment_capacity": 1100
+    },
+    {
+      "level": "Red (Legendary) T4 ★2",
+      "tier": "Red (Legendary) T4",
+      "star": 2,
+      "cost": {
+        "design_plan": 300,
+        "hardened_alloy": 160000,
+        "polishing_solution": 1800,
+        "lunar_amber": 40
+      },
+      "stat_bonus": "178.50%",
+      "power": 4284000,
+      "troops_deployment_capacity": 1150
+    },
+    {
+      "level": "Red (Legendary) T4 ★3",
+      "tier": "Red (Legendary) T4",
+      "star": 3,
+      "cost": {
+        "design_plan": 325,
+        "hardened_alloy": 180000,
+        "polishing_solution": 1950,
+        "lunar_amber": 40
+      },
+      "stat_bonus": "187.00%",
+      "power": 4488000,
+      "troops_deployment_capacity": 1200
+    }
+  ]
+}

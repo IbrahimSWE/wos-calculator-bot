@@ -1,0 +1,416 @@
+{
+  "system": "research_center",
+  "name_ar": "مركز البحوث",
+  "source": "https://www.whiteoutsurvival.wiki/buildings/research-center/",
+  "resources_order": [
+    "wood",
+    "coal",
+    "iron",
+    "food"
+  ],
+  "note": "أوقات البناء هي الأوقات الأساسية بدون أي خصومات (بحث/أبطال/بونصات الدولة).",
+  "levels": [
+    {
+      "level": 1,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 105
+      },
+      "time_seconds": 2,
+      "power": 440
+    },
+    {
+      "level": 2,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 160
+      },
+      "time_seconds": 9,
+      "power": 836
+    },
+    {
+      "level": 3,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 725
+      },
+      "time_seconds": 45,
+      "power": 1430
+    },
+    {
+      "level": 4,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 1600,
+        "coal": 320
+      },
+      "time_seconds": 135,
+      "power": 2222
+    },
+    {
+      "level": 5,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 6800,
+        "coal": 1300
+      },
+      "time_seconds": 270,
+      "power": 3410
+    },
+    {
+      "level": 6,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 17000,
+        "coal": 3400,
+        "iron": 860
+      },
+      "time_seconds": 540,
+      "power": 5192
+    },
+    {
+      "level": 7,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 62000,
+        "coal": 12000,
+        "iron": 3100
+      },
+      "time_seconds": 1080,
+      "power": 7766
+    },
+    {
+      "level": 8,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 110000,
+        "coal": 22000,
+        "iron": 5600
+      },
+      "time_seconds": 1620,
+      "power": 10340
+    },
+    {
+      "level": 9,
+      "requirements": [
+        "حجرة الاحتراق مستوى 9"
+      ],
+      "cost": {
+        "wood": 230000,
+        "coal": 47000,
+        "iron": 11000
+      },
+      "time_seconds": 2430,
+      "power": 12914
+    },
+    {
+      "level": 10,
+      "requirements": [
+        "حجرة الاحتراق مستوى 10"
+      ],
+      "cost": {
+        "wood": 410000,
+        "coal": 82000,
+        "iron": 20000
+      },
+      "time_seconds": 3240,
+      "power": 16654
+    },
+    {
+      "level": 11,
+      "requirements": [
+        "حجرة الاحتراق مستوى 11"
+      ],
+      "cost": {
+        "food": 520000,
+        "wood": 520000,
+        "coal": 100000,
+        "iron": 26000
+      },
+      "time_seconds": 4050,
+      "power": 20394
+    },
+    {
+      "level": 12,
+      "requirements": [
+        "حجرة الاحتراق مستوى 12"
+      ],
+      "cost": {
+        "food": 670000,
+        "wood": 670000,
+        "coal": 130000,
+        "iron": 33000
+      },
+      "time_seconds": 4860,
+      "power": 24134
+    },
+    {
+      "level": 13,
+      "requirements": [
+        "حجرة الاحتراق مستوى 13"
+      ],
+      "cost": {
+        "food": 950000,
+        "wood": 950000,
+        "coal": 190000,
+        "iron": 47000
+      },
+      "time_seconds": 5940,
+      "power": 30448
+    },
+    {
+      "level": 14,
+      "requirements": [
+        "حجرة الاحتراق مستوى 14"
+      ],
+      "cost": {
+        "food": 1200000,
+        "wood": 1200000,
+        "coal": 250000,
+        "iron": 63000
+      },
+      "time_seconds": 7560,
+      "power": 36762
+    },
+    {
+      "level": 15,
+      "requirements": [
+        "حجرة الاحتراق مستوى 15"
+      ],
+      "cost": {
+        "food": 1800000,
+        "wood": 1800000,
+        "coal": 370000,
+        "iron": 93000
+      },
+      "time_seconds": 9720,
+      "power": 43076
+    },
+    {
+      "level": 16,
+      "requirements": [
+        "حجرة الاحتراق مستوى 16"
+      ],
+      "cost": {
+        "food": 2300000,
+        "wood": 2300000,
+        "coal": 470000,
+        "iron": 110000
+      },
+      "time_seconds": 16440,
+      "power": 51964
+    },
+    {
+      "level": 17,
+      "requirements": [
+        "حجرة الاحتراق مستوى 17"
+      ],
+      "cost": {
+        "food": 3700000,
+        "wood": 3700000,
+        "coal": 740000,
+        "iron": 180000
+      },
+      "time_seconds": 19740,
+      "power": 60852
+    },
+    {
+      "level": 18,
+      "requirements": [
+        "حجرة الاحتراق مستوى 18"
+      ],
+      "cost": {
+        "food": 5000000,
+        "wood": 5000000,
+        "coal": 1000000,
+        "iron": 250000
+      },
+      "time_seconds": 23700,
+      "power": 69740
+    },
+    {
+      "level": 19,
+      "requirements": [
+        "حجرة الاحتراق مستوى 19"
+      ],
+      "cost": {
+        "food": 6200000,
+        "wood": 6200000,
+        "coal": 1200000,
+        "iron": 310000
+      },
+      "time_seconds": 35550,
+      "power": 82368
+    },
+    {
+      "level": 20,
+      "requirements": [
+        "حجرة الاحتراق مستوى 20"
+      ],
+      "cost": {
+        "food": 8600000,
+        "wood": 8600000,
+        "coal": 1700000,
+        "iron": 430000
+      },
+      "time_seconds": 44430,
+      "power": 94996
+    },
+    {
+      "level": 21,
+      "requirements": [
+        "حجرة الاحتراق مستوى 21"
+      ],
+      "cost": {
+        "food": 10000000,
+        "wood": 10000000,
+        "coal": 2100000,
+        "iron": 540000
+      },
+      "time_seconds": 57750,
+      "power": 107624
+    },
+    {
+      "level": 22,
+      "requirements": [
+        "حجرة الاحتراق مستوى 22"
+      ],
+      "cost": {
+        "food": 14000000,
+        "wood": 14000000,
+        "coal": 2800000,
+        "iron": 720000
+      },
+      "time_seconds": 86640,
+      "power": 126566
+    },
+    {
+      "level": 23,
+      "requirements": [
+        "حجرة الاحتراق مستوى 23"
+      ],
+      "cost": {
+        "food": 17000000,
+        "wood": 17000000,
+        "coal": 3500000,
+        "iron": 890000
+      },
+      "time_seconds": 121320,
+      "power": 145508
+    },
+    {
+      "level": 24,
+      "requirements": [
+        "حجرة الاحتراق مستوى 24"
+      ],
+      "cost": {
+        "food": 24000000,
+        "wood": 24000000,
+        "coal": 4800000,
+        "iron": 1200000
+      },
+      "time_seconds": 169860,
+      "power": 164450
+    },
+    {
+      "level": 25,
+      "requirements": [
+        "حجرة الاحتراق مستوى 25"
+      ],
+      "cost": {
+        "food": 32000000,
+        "wood": 32000000,
+        "coal": 6500000,
+        "iron": 1600000
+      },
+      "time_seconds": 237780,
+      "power": 183392
+    },
+    {
+      "level": 26,
+      "requirements": [
+        "حجرة الاحتراق مستوى 26"
+      ],
+      "cost": {
+        "food": 42000000,
+        "wood": 42000000,
+        "coal": 8400000,
+        "iron": 2100000
+      },
+      "time_seconds": 273420,
+      "power": 211222
+    },
+    {
+      "level": 27,
+      "requirements": [
+        "حجرة الاحتراق مستوى 27"
+      ],
+      "cost": {
+        "food": 59000000,
+        "wood": 59000000,
+        "coal": 11000000,
+        "iron": 2900000
+      },
+      "time_seconds": 328140,
+      "power": 239052
+    },
+    {
+      "level": 28,
+      "requirements": [
+        "حجرة الاحتراق مستوى 28"
+      ],
+      "cost": {
+        "food": 79000000,
+        "wood": 79000000,
+        "coal": 15000000,
+        "iron": 3900000
+      },
+      "time_seconds": 377340,
+      "power": 266882
+    },
+    {
+      "level": 29,
+      "requirements": [
+        "حجرة الاحتراق مستوى 29"
+      ],
+      "cost": {
+        "food": 98000000,
+        "wood": 98000000,
+        "coal": 19000000,
+        "iron": 4900000
+      },
+      "time_seconds": 433980,
+      "power": 294712
+    },
+    {
+      "level": 30,
+      "requirements": [
+        "حجرة الاحتراق مستوى 30"
+      ],
+      "cost": {
+        "food": 120000000,
+        "wood": 120000000,
+        "coal": 24000000,
+        "iron": 6000000
+      },
+      "time_seconds": 520800,
+      "power": 335170
+    }
+  ]
+}

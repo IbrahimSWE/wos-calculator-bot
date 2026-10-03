@@ -1,0 +1,347 @@
+{
+  "system": "military_camps",
+  "name_ar": "المعسكرات العسكرية (مشاة / رماح / رماية)",
+  "source": [
+    "https://www.whiteoutsurvival.wiki/buildings/infantry-camp/",
+    "https://www.whiteoutsurvival.wiki/buildings/lancer-camp/",
+    "https://www.whiteoutsurvival.wiki/buildings/marksman-camp/"
+  ],
+  "resources_order": [
+    "wood",
+    "coal",
+    "iron",
+    "food"
+  ],
+  "note": "التكلفة والوقت والقوة مطابقة تماماً للمعسكرات الثلاثة (مشاة/رماح/رماية) من مستوى 2 إلى 30. الاختلاف الوحيد هو متطلب مستوى حجرة الاحتراق ومستوى 1، محدد لكل معسكر في camps.",
+  "camps": {
+    "infantry": {
+      "name_ar": "معسكر المشاة",
+      "furnace_requirement_level1": 7,
+      "level1_cost": {}
+    },
+    "marksman": {
+      "name_ar": "معسكر الرماية",
+      "furnace_requirement_level1": 8,
+      "level1_cost": {}
+    },
+    "lancer": {
+      "name_ar": "معسكر رماة الرمح",
+      "furnace_requirement_level1": 9,
+      "level1_cost": {
+        "wood": 95
+      }
+    }
+  },
+  "shared_levels": [
+    {
+      "level": 1,
+      "cost": {},
+      "time_seconds": 2,
+      "power": 400
+    },
+    {
+      "level": 2,
+      "cost": {
+        "wood": 140
+      },
+      "time_seconds": 9,
+      "power": 760
+    },
+    {
+      "level": 3,
+      "cost": {
+        "wood": 645
+      },
+      "time_seconds": 45,
+      "power": 1300
+    },
+    {
+      "level": 4,
+      "cost": {
+        "wood": 1400,
+        "coal": 285
+      },
+      "time_seconds": 135,
+      "power": 2020
+    },
+    {
+      "level": 5,
+      "cost": {
+        "wood": 6000,
+        "coal": 1200
+      },
+      "time_seconds": 270,
+      "power": 3100
+    },
+    {
+      "level": 6,
+      "cost": {
+        "wood": 15000,
+        "coal": 3000,
+        "iron": 765
+      },
+      "time_seconds": 540,
+      "power": 4720
+    },
+    {
+      "level": 7,
+      "cost": {
+        "wood": 55000,
+        "coal": 11000,
+        "iron": 2700
+      },
+      "time_seconds": 1080,
+      "power": 7060
+    },
+    {
+      "level": 8,
+      "cost": {
+        "wood": 100000,
+        "coal": 20000,
+        "iron": 5000
+      },
+      "time_seconds": 1620,
+      "power": 9400
+    },
+    {
+      "level": 9,
+      "cost": {
+        "wood": 200000,
+        "coal": 41000,
+        "iron": 10000
+      },
+      "time_seconds": 2430,
+      "power": 11740
+    },
+    {
+      "level": 10,
+      "cost": {
+        "wood": 360000,
+        "coal": 73000,
+        "iron": 18000
+      },
+      "time_seconds": 3240,
+      "power": 15140
+    },
+    {
+      "level": 11,
+      "cost": {
+        "food": 460000,
+        "wood": 460000,
+        "coal": 92000,
+        "iron": 23000
+      },
+      "time_seconds": 4050,
+      "power": 18540
+    },
+    {
+      "level": 12,
+      "cost": {
+        "food": 580000,
+        "wood": 580000,
+        "coal": 110000,
+        "iron": 29000
+      },
+      "time_seconds": 4860,
+      "power": 21940
+    },
+    {
+      "level": 13,
+      "cost": {
+        "food": 830000,
+        "wood": 830000,
+        "coal": 160000,
+        "iron": 41000
+      },
+      "time_seconds": 5940,
+      "power": 27680
+    },
+    {
+      "level": 14,
+      "cost": {
+        "food": 1100000,
+        "wood": 1100000,
+        "coal": 220000,
+        "iron": 55000
+      },
+      "time_seconds": 7560,
+      "power": 33420
+    },
+    {
+      "level": 15,
+      "cost": {
+        "food": 1600000,
+        "wood": 1600000,
+        "coal": 320000,
+        "iron": 81000
+      },
+      "time_seconds": 9720,
+      "power": 39160
+    },
+    {
+      "level": 16,
+      "cost": {
+        "food": 2000000,
+        "wood": 2000000,
+        "coal": 410000,
+        "iron": 100000
+      },
+      "time_seconds": 16440,
+      "power": 47240
+    },
+    {
+      "level": 17,
+      "cost": {
+        "food": 3200000,
+        "wood": 3200000,
+        "coal": 650000,
+        "iron": 160000
+      },
+      "time_seconds": 19740,
+      "power": 55320
+    },
+    {
+      "level": 18,
+      "cost": {
+        "food": 4300000,
+        "wood": 4300000,
+        "coal": 870000,
+        "iron": 210000
+      },
+      "time_seconds": 23700,
+      "power": 63400
+    },
+    {
+      "level": 19,
+      "cost": {
+        "food": 5400000,
+        "wood": 5400000,
+        "coal": 1000000,
+        "iron": 270000
+      },
+      "time_seconds": 35550,
+      "power": 74880
+    },
+    {
+      "level": 20,
+      "cost": {
+        "food": 7500000,
+        "wood": 7500000,
+        "coal": 1500000,
+        "iron": 370000
+      },
+      "time_seconds": 44430,
+      "power": 86360
+    },
+    {
+      "level": 21,
+      "cost": {
+        "food": 9500000,
+        "wood": 9500000,
+        "coal": 1900000,
+        "iron": 470000
+      },
+      "time_seconds": 57750,
+      "power": 97840
+    },
+    {
+      "level": 22,
+      "cost": {
+        "food": 12000000,
+        "wood": 12000000,
+        "coal": 2500000,
+        "iron": 630000
+      },
+      "time_seconds": 86640,
+      "power": 115060
+    },
+    {
+      "level": 23,
+      "cost": {
+        "food": 15000000,
+        "wood": 15000000,
+        "coal": 3100000,
+        "iron": 780000
+      },
+      "time_seconds": 121320,
+      "power": 132280
+    },
+    {
+      "level": 24,
+      "cost": {
+        "food": 21000000,
+        "wood": 21000000,
+        "coal": 4200000,
+        "iron": 1000000
+      },
+      "time_seconds": 169860,
+      "power": 149500
+    },
+    {
+      "level": 25,
+      "cost": {
+        "food": 28000000,
+        "wood": 28000000,
+        "coal": 5700000,
+        "iron": 1400000
+      },
+      "time_seconds": 237780,
+      "power": 166720
+    },
+    {
+      "level": 26,
+      "cost": {
+        "food": 36000000,
+        "wood": 36000000,
+        "coal": 7300000,
+        "iron": 1800000
+      },
+      "time_seconds": 273420,
+      "power": 192020
+    },
+    {
+      "level": 27,
+      "cost": {
+        "food": 52000000,
+        "wood": 52000000,
+        "coal": 10000000,
+        "iron": 2600000
+      },
+      "time_seconds": 328140,
+      "power": 217320
+    },
+    {
+      "level": 28,
+      "cost": {
+        "food": 69000000,
+        "wood": 69000000,
+        "coal": 13000000,
+        "iron": 3400000
+      },
+      "time_seconds": 377340,
+      "power": 242620
+    },
+    {
+      "level": 29,
+      "cost": {
+        "food": 86000000,
+        "wood": 86000000,
+        "coal": 17000000,
+        "iron": 4300000
+      },
+      "time_seconds": 433980,
+      "power": 267920
+    },
+    {
+      "level": 30,
+      "cost": {
+        "food": 100000000,
+        "wood": 100000000,
+        "coal": 21000000,
+        "iron": 5200000
+      },
+      "time_seconds": 520800,
+      "power": 304700
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+const fs = require('node:fs');
+const path = require('node:path');
+
+const filePath = path.join(__dirname, '..', 'data', 'panels.json');
+
+function loadAll() {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+function saveAll(data) {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+}
+
+function getPanel(guildId) {
+  const data = loadAll();
+  return data[guildId] ?? null;
+}
+
+function setPanel(guildId, { channelId, messageId }) {
+  const data = loadAll();
+  data[guildId] = { channelId, messageId };
+  saveAll(data);
+}
+
+function getAllPanels() {
+  return loadAll();
+}
+
+module.exports = { getPanel, setPanel, getAllPanels };

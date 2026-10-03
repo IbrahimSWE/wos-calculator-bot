@@ -1,0 +1,144 @@
+{
+  "system": "barricade",
+  "name_ar": "المتراس",
+  "source": "https://www.whiteoutsurvival.wiki/buildings/barricade/",
+  "resources_order": [
+    "wood",
+    "coal",
+    "iron",
+    "food"
+  ],
+  "note": "المتراس فيه 10 مستويات فقط (وليس 30 مثل بقية المباني). يفتح مباشرة بمستوى 1 بدون تكلفة، ويحتاج مستوى حجرة احتراق أعلى بكل ترقية.",
+  "levels": [
+    {
+      "level": 1,
+      "requirements": [],
+      "cost": {},
+      "time_seconds": 0,
+      "power": 400
+    },
+    {
+      "level": 2,
+      "requirements": [
+        "حجرة الاحتراق مستوى 7"
+      ],
+      "cost": {
+        "wood": 5300,
+        "coal": 1000
+      },
+      "time_seconds": 10,
+      "power": 3100
+    },
+    {
+      "level": 3,
+      "requirements": [
+        "حجرة الاحتراق مستوى 10"
+      ],
+      "cost": {
+        "wood": 88000,
+        "coal": 17000,
+        "iron": 4400
+      },
+      "time_seconds": 1290,
+      "power": 9400
+    },
+    {
+      "level": 4,
+      "requirements": [
+        "حجرة الاحتراق مستوى 13"
+      ],
+      "cost": {
+        "food": 420000,
+        "wood": 420000,
+        "coal": 84000,
+        "iron": 21000
+      },
+      "time_seconds": 3870,
+      "power": 21940
+    },
+    {
+      "level": 5,
+      "requirements": [
+        "حجرة الاحتراق مستوى 16"
+      ],
+      "cost": {
+        "food": 1400000,
+        "wood": 1400000,
+        "coal": 290000,
+        "iron": 74000
+      },
+      "time_seconds": 13140,
+      "power": 47240
+    },
+    {
+      "level": 6,
+      "requirements": [
+        "حجرة الاحتراق مستوى 20"
+      ],
+      "cost": {
+        "food": 5300000,
+        "wood": 5300000,
+        "coal": 1000000,
+        "iron": 260000
+      },
+      "time_seconds": 35550,
+      "power": 86360
+    },
+    {
+      "level": 7,
+      "requirements": [
+        "حجرة الاحتراق مستوى 24"
+      ],
+      "cost": {
+        "food": 15000000,
+        "wood": 15000000,
+        "coal": 3000000,
+        "iron": 750000
+      },
+      "time_seconds": 135840,
+      "power": 149500
+    },
+    {
+      "level": 8,
+      "requirements": [
+        "حجرة الاحتراق مستوى 27"
+      ],
+      "cost": {
+        "food": 37000000,
+        "wood": 37000000,
+        "coal": 7400000,
+        "iron": 1800000
+      },
+      "time_seconds": 262500,
+      "power": 217320
+    },
+    {
+      "level": 9,
+      "requirements": [
+        "حجرة الاحتراق مستوى 29"
+      ],
+      "cost": {
+        "food": 61000000,
+        "wood": 61000000,
+        "coal": 12000000,
+        "iron": 3000000
+      },
+      "time_seconds": 347160,
+      "power": 267920
+    },
+    {
+      "level": 10,
+      "requirements": [
+        "حجرة الاحتراق مستوى 30"
+      ],
+      "cost": {
+        "food": 75000000,
+        "wood": 75000000,
+        "coal": 15000000,
+        "iron": 3700000
+      },
+      "time_seconds": 416640,
+      "power": 304700
+    }
+  ]
+}
